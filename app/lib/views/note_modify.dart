@@ -16,13 +16,13 @@ class NoteModify extends StatelessWidget{
           children: <Widget>[
             TextField(
               decoration: InputDecoration(
-                hintText: 'Note title'
+                hintText: 'Note Title'
               ),
             ),
             Container(height: 8,),
             TextField(
               decoration: InputDecoration(
-                hintText: 'Note content'
+                hintText: 'Note Content'
               ),
             ),
             Container(height: 16,),
